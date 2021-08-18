@@ -7,7 +7,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 source build/envsetup.sh
 lunch xdroid_ginkgo-userdebug
 export TZ=Asia/Jakarta #put before last build command
-make xd  -j$(nproc --all)
+make xd -j$(nproc --all)
 
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line)
