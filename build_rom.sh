@@ -1,5 +1,5 @@
 # sync rom
-repo init --depth=1 --no-repo-verify -u git://github.com/dotOS-FE -b dot11 -g default,-device,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u git://github.com/dotOS-FE/manifest.git -b dot11 -g default,-device,-mips,-darwin,-notdefault
 git clone https://github.com/rasenss/manifest_local.git --depth 1 -b Aosp11 .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
