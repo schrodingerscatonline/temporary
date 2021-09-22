@@ -2,7 +2,6 @@ repo init --depth=1 --no-repo-verify -u https://github.com/Wave-Project/manifest
 git clone https://github.com/Lucifer-morning-star-96/frostmanifest.git --depth 1 -b wave .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
-
 # build rom
 source build/envsetup.sh
 lunch wave_lavender-user
