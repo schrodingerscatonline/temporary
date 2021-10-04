@@ -6,7 +6,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 # build rom
 source build/envsetup.sh
 lunch aosp_ulysse-userdebug
-export TZ=Asia/Jakarta #put before last build command
+export TZ=Asia/Jakarta 
 export KBUILD_BUILD_USER=amier_san09
 export KBUILD_BUILD_HOST=Gabuters-Dev
 m aex
