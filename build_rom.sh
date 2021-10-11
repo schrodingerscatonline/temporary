@@ -2,7 +2,7 @@
 repo init --depth=1 --no-repo-verify -u https://github.com/Colt-Enigma/platform_manifest -b c11 -g default,-device,-mips,-darwin,-notdefault
 git clone https://github.com/Lucifer-morning-star-96/frostmanifest.git --depth 1 -b clot_os .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
-  
+   
 # build rom
 source build/envsetup.sh
 lunch colt_lavender-user
