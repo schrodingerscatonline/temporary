@@ -1,7 +1,6 @@
 # sync rom
-repo init --depth=1 --no-repo-verify -u git://github.com/xdroidsp/xd_manifest.git -b xd.xii
- -g default,-device,-mips,-darwin,-notdefault
-git clone  --depth 1 -b Aosp11 .repo/local_manifests
+repo init --depth=1 --no-repo-verify -u git://github.com/xdroidsp/xd_manifest.git -b xd.xii -g default,-device,-mips,-darwin,-notdefault
+git clone https://github.com/rasenss/manifest_local --depth 1 -b Aosp11 .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
 # build rom
