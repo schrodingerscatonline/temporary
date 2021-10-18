@@ -6,7 +6,7 @@ AospExtended [Custom ROM](https:/ebom.com/best-custom-roms-android-phones/) for 
 
 
 [Shots](https://t.me/Apon77Mido/570) or [Vdeo](https://www.youtube.com/watch?v=KuQ9jIVmOXY)
-Distributed ere](https://t.me/rn4doos/4885)
+Disibuted ere](https://t.me/rn4doos/4885)
 Estimated installation no.: 150-
 How to use this repositor
 ----------------
