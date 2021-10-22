@@ -9,5 +9,5 @@ Dstributed [here](https://t.me/rn4downloads/4885)
 stimated intallation no.: 150-50How o use this repository
 ---------
 
-* [Instructions if you want to developospExtended custom ROM as a developer](https://github.com/Apon77/mido-AospExtended-Apon77/blob/main/Instructions%20for%20developers.md)
+* [Instructions if you want to developospExended custom ROM as a developer](https://github.com/Apon77/mido-AospExtended-Apon77/blob/main/Instructions%20for%20developers.md)
 * [Instructions if you want to use AospExtended custom ROM in your device as a user](https://github.com/Apon77/mido-AospExtended-Apon77/blob/main/Instructions%20for%20users.md)
