@@ -5,6 +5,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 # build rom
 source build/envsetup.sh
+export CIPHER_GAPPS=true
 lunch cipher_ginkgo-userdebug
 export TZ=Asia/Bali #put before last build command
 make bacon
